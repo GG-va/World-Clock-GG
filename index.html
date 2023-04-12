@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock Project - GG </title>
 </head>
 
@@ -21,28 +24,37 @@
             <option value="">My current location</option>
             <option value="">New York</option>
             <option value="">London</option>
-            <option value="">Zurich</option>
+            <option value="">Berlin</option>
         </select>
 
-        <div class="city">
+        <div class="city" id="zurich">
             <div>
-                <h2> Los Angeles </h2>
-                <div class="date"> April 11 2023 </div>
+                <h2> Zurich </h2>
+                <div class="date"></div>
             </div>
-            <div class="time">06:32:15 <small>AM</small></div>
+            <div class="time"></div>
         </div>
 
-        <div class="city">
+        <div class="city" id="los-angeles">
+            <div>
+                <h2> Los Angeles </h2>
+                <div class="date"></div>
+            </div>
+            <div class="time"></div>
+        </div>
+
+        <div class="city" id="sydney">
             <div>
                 <h2> Sydney </h2>
-                <div class="date"> April 11 2023 </div>
+                <div class="date"></div>
             </div>
-            <div class="time">06:32:15 <small>AM</small></div>
+            <div class="time"></div></div>
         </div>
     </div>
     </div>
     <footer>
-        Coded with ♥ by <strong> GG </strong> - <a href="https://github.com/GG-va/World-Clock-Project" target="_blank">open sourced on
+        Coded with ♥ by <strong> GG </strong> - <a href="https://github.com/GG-va/World-Clock-GG" target="_blank">open
+            sourced on
             GitHub</a>.
     </footer>
     <script src="js/index.js"></script>
